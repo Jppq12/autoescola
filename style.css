@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+:root {
+    --cor1 : #FEC703;
+    --cor2 : #042E6A;
+    --cor3: gray;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+img#logo {
+    display: block;
+    max-width: 400px;
+    margin: auto;
+}
+
+div {
+    background-color: var(--cor2);
+}
+
+body {
+    background-color: var(--cor1);
+}
+
+nav {
+    border-radius: 2px solid white;
+}
