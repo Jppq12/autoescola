@@ -21,37 +21,52 @@ div {
 }
 
 body {
-    background-color: var(--cor1);
+    background-color: var(--cor3);
 }
 
 nav {
     padding: 8px;
-    background-color: var(--cor3);
+    background-color: var(--cor1);
+    font-weight: bolder;
 }
 
 a.link {
     text-decoration: none;
     padding: 8px;
-    color: white;
+    color: var(--cor2);
     border-radius: 1px 1px solid white;
+}
+
+a.link:hover {
+    color: white;
+    border-radius: 5px ;
 }
 
 a.link#wpp:hover {
     background-image: linear-gradient( to right ,#0DC143,#0DC143);
-    border-radius: 5px ;
+
 }
 
 a.link#ins:hover {
     background-image: linear-gradient(to right ,#7b38b2,
     #de5a50,#fca73d,#de5a50,#7b38b2);
-    border-radius: 5px ;
+
+}
+
+a.link#fcb:hover {
+    background-color: #0866FF;
 }
 
 main {
     background-color: var(--cor2);
-    height: 400px;
     width: 1300px;
+    height: 1000px;
     margin: auto;
+}
+
+img#main {
+    display: block;
+    height: 800px;
 }
 
 p.destaque {
